@@ -60,9 +60,9 @@ def get_com(start, end):
                         break
                 else:
                     res.append(temp_com)
-                    temp = int(temp_com)
-                    temp += 1
-                    temp_com = str(temp)
+                    temp_com = int(temp_com)
+                    temp_com += 1
+                    temp_com = str(temp_com)
                     m=1
                     if temp_com[-1]=='0':
                         while temp_com[-m]=='0':
